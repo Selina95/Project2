@@ -1,0 +1,21 @@
+>> input_1 = [1 2 3];
+>> weight = [0.5 0.2 0.3];
+>> Neuron(input_1, weight)
+
+ans =
+
+    0.8581
+
+>> input_2 = [10 20 30];
+>> Neuron(input_2, weight)
+
+ans =
+
+    1.0000
+
+>> input_3 = [-2 -3 -4];
+>> Neuron(input_3, weight)
+
+ans =
+
+    0.0573
